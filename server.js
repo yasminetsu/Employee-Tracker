@@ -350,7 +350,7 @@ const addDepartment = () => {
         }
       ])
       .then((answer) => {
-        let sql =     `INSERT INTO department (department_name) VALUES (?)`;
+        let sql =     `INSERT INTO department (department.name) VALUES (?)`;
         connection.query(sql, answer.newDepartment, (error, response) => {
           if (error) throw error;
           console.log(``);
@@ -526,9 +526,9 @@ const removeEmployee = () => {
           let sql = `DELETE FROM employee WHERE employee.id = ?`;
           connection.query(sql, [employeeId], (error) => {
             if (error) throw error;
-            console.log(chalk.redBright.bold(`====================================================================================`));
+            console.log(chalk.redBright.bold(``));
             console.log(chalk.redBright(`Employee Successfully Removed`));
-            console.log(chalk.RedBright.bold(`====================================================================================`));
+            console.log(chalk.RedBright.bold(``));
             viewAllEmployees();
           });
         });

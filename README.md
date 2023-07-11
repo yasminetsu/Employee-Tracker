@@ -1,13 +1,15 @@
 ## Employee-Tracker
 
-## Walkthrough Video
-
-  <a href="https://www.youtube.com/yasminetsu/">
-<img src="./download.png" alt="youtube">
-
 A Node.js application that presents the user with a main menu where they can pick different things to do from the main menu list. The main menu list gives the user options to interact with a database created with SQL. This application uses MYSQL2 to interact with the database so that the user can do things such as add information to the database, view information from certain tables, and update information from those tables in the database.
 
+## Walkthrough Video
+
+  <a href="https://www.youtube.com/watch?v=jG3u7pZtIZs">
+<img src="./download.png" alt="youtube">
+
+
 ## Motivation
+
 Most companies use databases to keep track of all their employee information. SQL is one of the top database languages that companies like to use, but it is too complicated if all employees who want to interact with the database have to be fully knowledgeable about SQL. So, a simple application that allows anyone in the company to interact with the database without having to have any extra education in SQL is the perfect solution.
 
 ## Technologies
