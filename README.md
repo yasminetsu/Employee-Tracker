@@ -1,5 +1,10 @@
 ## Employee-Tracker
 
+## Walkthrough Video
+
+  <a href="https://www.youtube.com/yasminetsu/">
+<img src="./download.png" alt="youtube">
+
 A Node.js application that presents the user with a main menu where they can pick different things to do from the main menu list. The main menu list gives the user options to interact with a database created with SQL. This application uses MYSQL2 to interact with the database so that the user can do things such as add information to the database, view information from certain tables, and update information from those tables in the database.
 
 ## Motivation
@@ -28,6 +33,6 @@ To run this project, pull it from Github to your local machine using your termin
 $ cd <any folder you want this repository to go to>
 $ git clone <paste the copied link>
 ```
+<img src="./e.t.1.png" alt="screenshot">
+<img src="./e.t.2.png" alt="screenshot">
 
- <img src="./assets/images/e.t.1.png.png" alt="employeetracker">
-<img src="./assets/images/e.t.2.png.png" alt="employeetracker">
