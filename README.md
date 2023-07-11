@@ -14,8 +14,8 @@ Most companies use databases to keep track of all their employee information. SQ
 ## Technologies
 
 Project was created with:
-* CSS
-* HTML
+* NODE.JS
+* Express
 * JavaScript
 
 ## Installation
